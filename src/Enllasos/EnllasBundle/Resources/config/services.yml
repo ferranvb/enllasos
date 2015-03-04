@@ -1,0 +1,4 @@
+services:
+#    enllas.example:
+#        class: Enllasos\EnllasBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

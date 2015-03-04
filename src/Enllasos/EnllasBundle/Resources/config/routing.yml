@@ -1,0 +1,7 @@
+enllas_enllas:
+    resource: "@EnllasBundle/Resources/config/routing/enllas.yml"
+    prefix:   /enllas
+
+enllas_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EnllasBundle:Default:index }

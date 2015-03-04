@@ -1,0 +1,30 @@
+enllas:
+    path:     /
+    defaults: { _controller: "EnllasBundle:Enllas:index" }
+
+enllas_show:
+    path:     /{id}/show
+    defaults: { _controller: "EnllasBundle:Enllas:show" }
+
+enllas_new:
+    path:     /new
+    defaults: { _controller: "EnllasBundle:Enllas:new" }
+
+enllas_create:
+    path:     /create
+    defaults: { _controller: "EnllasBundle:Enllas:create" }
+    requirements: { _method: post }
+
+enllas_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "EnllasBundle:Enllas:edit" }
+
+enllas_update:
+    path:     /{id}/update
+    defaults: { _controller: "EnllasBundle:Enllas:update" }
+    requirements: { _method: post|put }
+
+enllas_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "EnllasBundle:Enllas:delete" }
+    requirements: { _method: post|delete }
